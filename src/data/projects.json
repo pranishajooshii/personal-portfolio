@@ -1,0 +1,23 @@
+[
+  {
+    "image": "/calculator.png",
+    "title": "Calculator",
+    "description": "A basic calculator for performing arithmetic operations with a clean and responsive interface.",
+    "language": ["HTML", " CSS", "JavaScript"],
+    "github": "https://github.com/pranishajooshii/Calculator"
+  },
+  {
+    "image": "/todo.png",
+    "title": "Todo App",
+    "description": "A simple app for managing tasks with features to add, edit, complete, and delete items.",
+    "language": ["React", "Tailwind "],
+    "github": "https://github.com/pranishajooshii/Todo-App"
+  },
+  {
+    "image": "/mortgage-calc.jpg",
+    "title": "Mortgage Calculator",
+    "description": " Estimates monthly mortgage payments based on  the loan amount, interest rate, loan term mortgage type .",
+    "language": ["Next.js", "Tailwind", "Shadcn"],
+    "github": "https://github.com/pranishajooshii/Mortgage-Calculator"
+  }
+]
