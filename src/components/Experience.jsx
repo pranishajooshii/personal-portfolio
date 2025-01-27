@@ -3,11 +3,11 @@ import experienceData from "../data/experience.json"; // Import JSON data
 
 const Experience = () => {
   return (
-    <div className="flex flex-col items-center py-10 bg-gray-50">
+    <div className="flex flex-col items-center py-10 px-5 bg-gray-50">
       <h2 className="text-3xl font-bold text-gray-800 mt-20 mb-6">My Experience</h2>
-      <div className="relative w-full max-w-4xl">
+      <div className="relative w-full max-w-4xl ">
         {/* Vertical Line */}
-        <div className="absolute top-0 left-1/2 -translate-x-1/2 h-full w-1 bg-gray-300"></div>
+        <div className="absolute top-0 left-1/2 -translate-x-1/2 h-full w-1 bg-gray-300 "></div>
         <div className="space-y-10">
           {experienceData.map((exp, index) => (
             <div
