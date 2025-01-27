@@ -11,6 +11,7 @@ const HomePage = () => {
       <section id="introduction">
         <Introduction />
       </section>
+      
       <section id="projects">
         <ProjectCard />
       </section>
@@ -23,9 +24,7 @@ const HomePage = () => {
         <Experience />
       </section>
 
-      <section id="contact">
-        <Footer />
-      </section>
+     
     </div>
   );
 };

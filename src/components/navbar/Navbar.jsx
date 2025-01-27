@@ -1,10 +1,12 @@
 "use client";
 import React, { useState, useEffect } from "react";
 import { RxHamburgerMenu } from "react-icons/rx";
+import { FaLinkedin } from "react-icons/fa"; // Import LinkedIn and Gmail icons
 import LinkList from "./LinkList";
 import Image from "next/image";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
+import { BiLogoGmail } from "react-icons/bi";
 import {
   Sheet,
   SheetContent,
@@ -73,9 +75,25 @@ const Navbar = () => {
         {/* Left Side - Name */}
         <div className="font-semibold text-xl">Pranisha Joshi</div>
 
-        {/* Right Side - Links */}
-        <div className="flex">
+        {/* Center - LinkList */}
+        <div className="flex mx-auto">
           <LinkList isMobile={false} />
+        </div>
+
+        {/* Right Side - Icons */}
+        <div className="flex space-x-6">
+          {/* LinkedIn Icon */}
+          <Link
+            href="https://www.linkedin.com/in/pranisha-joshi-bb5714201/"
+            target="_blank"
+          >
+            <FaLinkedin size={24} />
+          </Link>
+
+          {/* Gmail Icon */}
+          <Link href="mailto:pranisha.joshi11@gmail.com">
+            <BiLogoGmail size={24} />
+          </Link>
         </div>
       </nav>
     </div>
