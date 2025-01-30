@@ -1,7 +1,7 @@
 import React from "react";
 import { usePathname } from "next/navigation";
 import Link from "next/link";
-import { FaLinkedin } from "react-icons/fa"; 
+import { FaLinkedin } from "react-icons/fa";
 import { BiLogoGmail } from "react-icons/bi";
 
 const LinkList = ({ isMobile }) => {
@@ -63,23 +63,33 @@ const LinkList = ({ isMobile }) => {
           </li>
         </ul>
 
+        {isMobile && (
+          <div className="mt-10">
+            <Link href="/cv.pdf" target="_blank" download>
+              <button className="text-sm md:text-lg xl:text-xl hover:text-gray-500 transition">
+                Download CV
+              </button>
+            </Link>
+          </div>
+        )}
+
         {/* Social Media Icons */}
         {isMobile && (
-        <div className="flex  space-x-6  mt-6">
-          {/* LinkedIn Icon */}
-          <Link
-            href="https://www.linkedin.com/in/pranisha-joshi-bb5714201/"
-            target="_blank"
-          >
-            <FaLinkedin size={24} />
-          </Link>
+          <div className="flex  space-x-6  mt-6">
+            {/* LinkedIn Icon */}
+            <Link
+              href="https://www.linkedin.com/in/pranisha-joshi-bb5714201/"
+              target="_blank"
+            >
+              <FaLinkedin size={24} />
+            </Link>
 
-          {/* Gmail Icon */}
-          <Link href="mailto:16aanahomes@gmail.com">
-            <BiLogoGmail size={24} />
-          </Link>
-        </div>
-         )}
+            {/* Gmail Icon */}
+            <Link href="mailto:16aanahomes@gmail.com">
+              <BiLogoGmail size={24} />
+            </Link>
+          </div>
+        )}
       </div>
     </>
   );

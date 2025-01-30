@@ -81,8 +81,14 @@ const Navbar = () => {
         </div>
 
         {/* Right Side - Icons */}
-        <div className="flex space-x-6">
+        <div className="flex space-x-6 items-center">
           {/* LinkedIn Icon */}
+          <Link href="/cv.pdf" target="_blank" download>
+            <button className="text-sm md:text-lg xl:text-xl   hover:text-gray-500 transition">
+              Download CV
+            </button>
+          </Link>
+
           <Link
             href="https://www.linkedin.com/in/pranisha-joshi-bb5714201/"
             target="_blank"
