@@ -24,10 +24,10 @@ const ProjectCard = () => {
         <div className="flex justify-center items-center">
           <h1 className="mt-10 md:mt-20 text-3xl font-semibold">Projects</h1>
         </div>
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-x-6 gap-y-20 md:gap-y-5 px-5  mt-8">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-x-6 gap-y-20 md:gap-y-5 px-5  mt-8 s">
           {projects.map((item, index) => (
             <div key={index}>
-              <Card className="xl:w-[350px] pb-4 group lg:shadow-none border-none shadow-xl   relative  transform transition-transform duration-300 hover:scale-105 hover:shadow-lg ">
+              <Card className="xl:w-[350px] pb-4 group   shadow-xl   relative  transform transition-transform duration-300 hover:scale-105 hover:shadow-lg ">
                 <div
                   style={{
                     backgroundImage: `url(${item.image || "/placeholder.jpg"})`, // Replace with an actual image path or placeholder
