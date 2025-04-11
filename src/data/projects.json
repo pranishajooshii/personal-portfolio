@@ -19,5 +19,12 @@
     "description": " Estimates monthly mortgage payments  on the loan amount, interest rate, loan term & mortgage type .",
     "language": ["Next.js", "Tailwind", "Shadcn"],
     "github": "https://github.com/pranishajooshii/Mortgage-Calculator"
+  },
+  {
+    "image": "/tweetapp.png",
+    "title": "Tweet App",
+    "description": " Allow users to create, edit, and delete tweets, categorized by type—Education, Health, or Technology—for effortless organization. ",
+    "language": ["Django", "Bootstrap"],
+    "github": "https://github.com/pranishajooshii/Tweet-app"
   }
 ]
