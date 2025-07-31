@@ -1,11 +1,5 @@
 [
-  {
-    "image": "/calculator.png",
-    "title": "Calculator",
-    "description": "A basic calculator for performing arithmetic operations with a clean and responsive interface.",
-    "language": ["HTML", " CSS", "JavaScript"],
-    "github": "https://github.com/pranishajooshii/Calculator"
-  },
+  
   {
     "image": "/todo.png",
     "title": "Todo App",
