@@ -8,9 +8,9 @@ import Experience from "./Experience";
 const HomePage = () => {
   return (
     <div>
-      <section id="introduction">
+      {/* <section id="introduction">
         <Introduction />
-      </section>
+      </section> */}
       
       <section id="projects">
         <ProjectCard />

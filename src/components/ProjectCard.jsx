@@ -22,7 +22,7 @@ const ProjectCard = () => {
     <div className="flex justify-center items-center ">
       <div className="">
         <div className="flex justify-center items-center">
-          <h1 className="mt-10 md:mt-20 text-3xl font-semibold">Projects</h1>
+          <h1 className="mt-20 md:mt-28 text-3xl font-semibold">Projects</h1>
         </div>
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-x-6 gap-y-20 md:gap-y-5 px-5  mt-8 s">
           {projects.map((item, index) => (

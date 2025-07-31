@@ -12,30 +12,24 @@ const Introduction = () => {
 
           <div className="flex md:hidden">
             <p className="text-sm  text-justify  ">
-              an aspiring Web Developer with a keen interest in creating
-              user-friendly and visually appealing websites.Currently pursuing
-              BSc. CSIT at SOCH College of IT, Pokhara.
+              an aspiring Backend Developer  with a strong interest in building scalable and efficient server-side applications.
             </p>
           </div>
 
           <div className="hidden lg:flex">
             <div className="text-lg  ">
-              an aspiring Web Developer with a keen interest in creating
-              user-friendly and visually appealing
+             an aspiring Backend Developer  with a strong interest in building scalable and efficient server-side 
               <div className="pl-24 ">
-                websites.Currently pursuing BSc. CSIT at SOCH College of IT,
-                Pokhara.
+                applications.
               </div>
             </div>
           </div>
 
           <div className="hidden md:flex lg:hidden">
             <div className="text-lg  ">
-              an aspiring Web Developer with a keen interest in creating
-              user-friendly and visually 
+              an aspiring Backend Developer  with a strong interest in building scalable and efficient server-side  
               <div className="pl-5 ">
-              appealing websites.Currently pursuing BSc. CSIT at SOCH College of IT,
-                Pokhara.
+              applications.
               </div>
             </div>
           </div>
